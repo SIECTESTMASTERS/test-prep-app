@@ -51,7 +51,7 @@ function Courses() {
               </div>
 
               <div className="w-50 text-end">
-                <button className="btn">See All</button>
+                <button className="btn">Explore More</button>
               </div>
             </div>
           </Col>

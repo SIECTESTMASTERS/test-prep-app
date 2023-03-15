@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutUs from '../components/AboutUs/AboutUs'
+import ChooseUs from '../components/ChooseUs/ChooseUs'
 import CompanySection from '../components/CompanySection/CompanySection'
 import Courses from '../components/CoursesSection/Courses'
 import Header from '../components/Header/Header'
@@ -13,6 +14,7 @@ function Home() {
       <CompanySection />
       <AboutUs />
       <Courses />
+      <ChooseUs />
     </div>
   )
 }
