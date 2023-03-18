@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { Link } from 'react-router-dom';
 import { Button, Container } from 'reactstrap';
 import logo from '../../images/sieclogo.png'
 import './header.css'
@@ -40,7 +41,7 @@ function Header() {
 
           <div className="nav__right">
             <Button>
-              Register
+              <Link to='/signup'>Register</Link>
             </Button>
             <Button>
               Login
