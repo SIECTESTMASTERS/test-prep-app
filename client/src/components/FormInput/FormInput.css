@@ -4,7 +4,7 @@
     margin: 35px auto 63px;
 }
 .login-page-wrap {
-    background: #f7f7f7
+    background: white;
 }
 .container {
     width: 750px;
@@ -22,13 +22,17 @@ img{
     border: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
     line-height: 1.41;
     letter-spacing: 1px;
-    color: #284664;
+    color: #024b1efd;
     margin: 0 0 50px;
     text-transform: uppercase;
 }
@@ -85,7 +89,7 @@ label {
 .login-box__left .btn-submit {
     display: block;
     width: 100%;
-    background-color: #284664;
+    background-color: #024b1efd;
     font-size: 14px;
     font-weight: bold;
     color: #fff;
@@ -106,4 +110,79 @@ label {
 button.iot-bt {
     line-height: normal;
 }
+
+.login-box__have-acc {
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.2px;
+    color: #7a7a7a;
+    margin-top: 20px;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.login-box__login-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #dcdcdc;
+    left: 50%;
+}
+
+.login-box__login-line span {
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 800;
+    color: #3e6373;
+}
+
+.login-box__right.-center {
+    align-self: center;
+}
+
+.login-box__right {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+
+.login-box__social-item {
+    display: inline-block;
+    margin: 0px 0px 20px 0px;
+    height: 52px;
+    line-height: 52px;
+    width: 100%;
+    max-width: 310px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    background-color: #df4930;
+}
+
+.login-box__social-item.-facebook {
+    background-color: #507cc0;
+}
+
+.login-box__social-item.-twitter {
+    background-color: #64ccf1;
+}
+
 

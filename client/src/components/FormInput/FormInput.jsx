@@ -42,8 +42,32 @@ function FormInput() {
 
                         <button className='btn-submit' type='submit'>Register</button>
 
+                        <div className="login-box__have-acc clearfix">
+                            Have an account already?
+                            <Link>Please login here</Link>
                         </div>
-                    </div>
+
+                        </div>
+
+                        <div className="login-box__login-line">
+                            <span>Or</span>
+                        </div>
+                        </div>
+
+                        <div className="login-box__right test -center">
+                          <a href="" className="login-box__social-item -google" style={{textDecoration:'none'}}>
+                            <i className='fa fa-google'> Login with Google</i>
+                            </a>  
+
+                            <a href="" className="login-box__social-item -facebook" style={{textDecoration:'none'}}>
+                            <i className='fa fa-facebook'> Login with Facebook</i>
+                            </a>
+
+                            <a href="" className="login-box__social-item -twitter" style={{textDecoration:'none'}}>
+                            <i className='fa fa-twitter'> Login with Twitter</i>
+                            </a>
+
+                        </div>
                 </div>
             </form>
         </div>

@@ -44,7 +44,7 @@ function Header() {
               <Link to='/signup'>Register</Link>
             </Button>
             <Button>
-              Login
+              <Link to='/user'>Login</Link>
             </Button>
           </div>
         </div>
