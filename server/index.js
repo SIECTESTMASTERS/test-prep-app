@@ -1,5 +1,19 @@
-const express = require('express')
+const express = require('express');
+const morgan = require('morgan');
+const dotenv = require('dotenv');
+
 const app = express();
+
+/* Bodyparser Middleware */
+app.use(express.json());
+
+/* Load env */
+dotenv.config({ path: './env'});
+
+/* Log route actions */
+if(process.NODE_ENV !== 'production'){
+    app.use(morgan('dev'));
+}
 
 const port = process.env.PORT || 5000;
 
