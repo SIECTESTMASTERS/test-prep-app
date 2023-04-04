@@ -12,7 +12,7 @@ connectDatabase = () => {
         });
         db.connect(function(err) {
             if(!err){
-                console.log("Databade is connected!");
+                console.log("Database is connected!");
             }else {
                 console.log("Error connecting database!")
             }

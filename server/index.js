@@ -8,12 +8,15 @@ const app = express();
 app.use(express.json());
 
 /* Load env */
-dotenv.config({ path: './env'});
+dotenv.config({ path: './.env'});
 
 /* Log route actions */
 if(process.NODE_ENV !== 'production'){
     app.use(morgan('dev'));
 }
+
+/* routes */
+app.use('/leads', require('./routes/lead'));
 
 const port = process.env.PORT || 5000;
 
