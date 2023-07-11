@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import { Link } from 'react-router-dom';
 import { Button, Container } from 'reactstrap';
 import logo from '../../images/sieclogo.png'
 import './header.css'
+import { Link } from '@mui/material';
 
 function createData(display, url){
   return { display, url}
@@ -40,12 +40,16 @@ function Header() {
           </div>
 
           <div className="nav__right">
+            <a href='https://test-masters-frontend-classroom-management-system-seven.vercel.app/signup' target="_blank">
             <Button>
-              <Link to='/signup'>Register</Link>
+              Register
             </Button>
+            </a>
+            <a href='https://test-masters-frontend-classroom-management-system-seven.vercel.app' target="_blank">
             <Button>
-              <Link to='/user'>Login</Link>
+             Login
             </Button>
+            </a>
           </div>
         </div>
 

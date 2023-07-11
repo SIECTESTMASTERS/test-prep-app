@@ -19,9 +19,14 @@ function HeroSection() {
                 quas officiis et repellat!
                 </p>
             </div>
-            <div className="search">
-                <input type='text' placeholder='Search'/>
-                <button className='btn'>Search</button>
+            <div>
+                {/*<input type='text' placeholder='Search'/> */}
+                <a href='https://test-masters-frontend-classroom-management-system-seven.vercel.app/allcourses' target="_blank">
+                <button className='btn'>Get Started</button>
+                </a>
+                <a href='https://test-masters-frontend-classroom-management-system-seven.vercel.app/submitcallrequest' target="_blank">
+                <button className='btn'>Talk to an expert</button>
+                </a>
             </div>
             </Col>
             <Col lg='6' md='6'>
